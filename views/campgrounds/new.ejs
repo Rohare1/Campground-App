@@ -1,0 +1,35 @@
+  <% include ../partials/header %>
+   <div class='row justify-content-center'>
+       <div class='col-md-12 text-center'>
+            <h1>Create A New Campground</h1>
+       </div>
+       <div class='col-xs-12 col-md-6 col-lg-4'> 
+           <form  action='/campgrounds' method='POST' enctype='multipart/form-data'>
+             <div class='form-group'>
+                 <label for="name">Name</label>
+                <input class='form-control' type='text' id='name' name='name' placeholder='Name'>
+             </div> 
+             <div class='form-group'>
+                 <label for="price">Price</label>
+                <input class='form-control' type='number' id='price' name='price' placeholder='Price (£)' min='0.01' step='0.01'>
+             </div>
+             <div class='form-group'>
+                <label for="description">Description</label> 
+                <input class='form-control' id='location' type='text' name='description'placeholder='Description'>
+             </div>
+              <div class='form-group'>
+                <label for='image'>Image</label>
+                <input id='image' type='file' name='image' accept='image/*'>
+             </div>
+             <div class="form-group">
+                  <label for="location">Location</label>
+                  <input class="form-control" type="text" name="location" id="location" placeholder="Tollymore Forest Park, Northern Ireland">
+            </div>
+             <div class='form-group'>
+                <button class='btn btn-lg btn-primary btn-block'>Submit!</button>
+             </div> 
+             <a href='/campgrounds'>Go Back</a>
+           </form>
+       </div>
+   </div>
+<% include ../partials/footer %>
