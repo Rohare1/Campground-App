@@ -1,10 +1,8 @@
 # Campground-App
-***
 A web application built with the [Web Developer Bootcamp with Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/)
 
 ## Demo
-***
-For a live demo please visit [click here](https://express-campground.herokuapp.com/)
+For a live demo please [click here](https://express-campground.herokuapp.com/)
 
 ### Features
 ***
